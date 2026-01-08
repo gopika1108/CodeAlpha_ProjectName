@@ -1,0 +1,41 @@
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1c2356, #8b3a53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    letter-spacing: 10px;
+   position: relative;
+    top: -40px;
+    color:white;
+}
+
+
+.player{
+    background: linear-gradient(rgb(154, 81, 203),rgb(157, 127, 127));
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   text-align: center;
+    border-radius: 45px;
+}
+
+.buttons button{
+    font-size: 20px;
+    padding: 10px 14px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.2s;
+}
